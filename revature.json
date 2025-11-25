@@ -1,0 +1,40 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_dog_has_make_sound_method",
+          "label": "Dog has make_sound method",
+          "description": "Verifies that the Dog class implements a make_sound method."
+        },
+        {
+          "methodName": "test_cat_has_make_sound_method",
+          "label": "Cat has make_sound method",
+          "description": "Verifies that the Cat class implements a make_sound method."
+        },
+        {
+          "methodName": "test_duck_has_make_sound_method",
+          "label": "Duck has make_sound method",
+          "description": "Verifies that the Duck class implements a make_sound method."
+        },
+        {
+          "methodName": "test_dog_make_sound",
+          "label": "Dog make_sound output",
+          "description": "Checks that Dog.make_sound() returns 'Woof!' for a Dog instance."
+        },
+        {
+          "methodName": "test_cat_make_sound",
+          "label": "Cat make_sound output",
+          "description": "Checks that Cat.make_sound() returns 'Meow!' for a Cat instance."
+        },
+        {
+          "methodName": "test_duck_make_sound",
+          "label": "Duck make_sound output",
+          "description": "Checks that Duck.make_sound() returns 'Quack!' for a Duck instance."
+        }
+      ]
+    }
+  ]
+}
